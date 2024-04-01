@@ -6,7 +6,7 @@ namespace HW4
     {   
         static void Main(string[] args)
         {
-            var s = new Stack();
+            var s = new Stack("1", "2", "3", "2", "3", "2", "3", "2", "3", "2", "3", "2", "3", "2", "3");
             s.Add("a");
             s.Add("b");
             s.Add("c");

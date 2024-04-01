@@ -11,17 +11,19 @@ namespace HW4
     public class Stack
     {
         private List<string> Elemets = new List<string>();
-        //public Stack(params string[] elString)
-        //{
-        //}
-        //public Stack(string n) => Elemets.Add(n);
+        public Stack(params string[] elString)
+        {
+            Elemets.AddRange(elString);
+            // Реализовать установку параметрв size и top !!!!!!!!
+        }
+            //public Stack(string n) => Elemets.Add(n);
 
-        //public Stack(string Elemets)
-        //{
-        //    this.Elemets.Add();
-        //}
+            //public Stack(string Elemets)
+            //{
+            //    this.Elemets.Add();
+            //}
 
-        public void Add(string[] ElString)
+            public void Add(string[] ElString)
         {
             foreach (var n in ElString)
             {
